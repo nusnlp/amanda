@@ -38,7 +38,7 @@ Steps are self explanatory.
 Execute:
 
 ```bash
-./src/run_dataprep.sh data/trainjson data/dev.json data/test.json
+./src/run_dataprep.sh data/train.json data/dev.json data/test.json
 ```
 
 ### Training ###
