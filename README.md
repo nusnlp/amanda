@@ -21,6 +21,8 @@ If you use the source code or models from this work, please cite our paper:
 }
 ```
 
+You can also find the paper in arxiv: https://arxiv.org/abs/1801.08290
+
 ### License ###
 
 AMANDA is licensed under the GNU General Public License Version 3. Separate commercial licensing is also available. For more information contact:
