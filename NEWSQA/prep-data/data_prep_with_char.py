@@ -82,8 +82,8 @@ class DataPrep(object):
 				q_char_idxs = self.get_char_id_list(q_words)
 				q_wh, q_wh_next = self.qwh_onehot_vec(q_words)
 				label_start = [0]*len(ctx_words)
-				label_start[qa['answers'][0]['answer_start']] = 1
-				label_length = len(qa['answers'][0]['text.tokens'])
+				label_start[qa['answer'][0]['answer_start']] = 1
+				label_length = len(qa['answer'][0]['text.tokens'])
 			
 				data_dict = {'context': ctx_idxs, 'context_chars': ctx_char_idxs, 'question': q_idxs, 'question_chars': q_char_idxs,
                                             'q_wh': q_wh, 'q_wh_next': q_wh_next,
