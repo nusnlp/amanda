@@ -6,12 +6,13 @@ This directory contains the code and necessary files for experimentation on News
 
 * Python 2.7
 * Numpy
-* Theano
 * h5py
 * nltk
 * tqdm
 * pandas
-* Keras (with Theano backend)
+* Theano-0.9
+* Keras (with Theano backend)-1.1.0
+* cudnn-v5
 
 ### Data Requirements ###
 
